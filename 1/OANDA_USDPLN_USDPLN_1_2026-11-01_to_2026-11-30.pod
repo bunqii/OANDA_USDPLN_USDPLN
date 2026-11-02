@@ -1,0 +1,65 @@
+{
+  "pod_version": "4.0",
+  "instrument": "USD_PLN",
+  "granularity": "M1",
+  "chunk_start": "2026-11-01",
+  "chunk_end": "2026-11-30",
+  "parquet_file": "OANDA_USDPLN_USDPLN_1_2026-11-01_to_2026-11-30.parquet",
+  "data_file": "OANDA_USDPLN_USDPLN_1_2026-11-01_to_2026-11-30.parquet",
+  "row_count": 464,
+  "first_candle": {
+    "time": 1793570640,
+    "Time": "2026-11-01T22:04:00.000000000Z",
+    "open": 3.9562,
+    "high": 3.9562,
+    "low": 3.9562,
+    "close": 3.9562,
+    "volume": 1
+  },
+  "last_candle": {
+    "time": 1793598840,
+    "Time": "2026-11-02T05:54:00.000000000Z",
+    "open": 3.9468,
+    "high": 3.94685,
+    "low": 3.9466,
+    "close": 3.9466,
+    "volume": 26
+  },
+  "csv_file": "OANDA_USDPLN_USDPLN_1_2026-11-01_to_2026-11-30.parquet",
+  "csv_row_count": 464,
+  "csv_first_candle": {
+    "time": 1793570640,
+    "Time": "2026-11-01T22:04:00.000000000Z",
+    "open": 3.9562,
+    "high": 3.9562,
+    "low": 3.9562,
+    "close": 3.9562,
+    "volume": 1
+  },
+  "csv_last_candle": {
+    "time": 1793598840,
+    "Time": "2026-11-02T05:54:00.000000000Z",
+    "open": 3.9468,
+    "high": 3.94685,
+    "low": 3.9466,
+    "close": 3.9466,
+    "volume": 26
+  },
+  "status": "VERIFIED_PARTIAL",
+  "verified_at": "2026-11-02T05:55:32.000000000Z",
+  "generated_at": "2026-11-02T05:55:32.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 1,
+    "chunk_api_blocks": 1,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2026-11-01T00:00:00Z",
+        "to": "2026-11-02T05:55:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}
